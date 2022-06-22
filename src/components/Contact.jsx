@@ -13,7 +13,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="flex justify-center items-center text-center font-semibold">
-            <p>Submit the form below or shoot me an e-mail at pradyumnad092004@gmail.com</p>
+            <p>Submit the form below to contact me!</p>
           </div>
           <input type="text" placeholder="Name" name='name' className="my-4 p-2 rounded-lg bg-[#ccd6f6] text-gray-600 font-semibold" />
           <input type="email" placeholder="E-Mail" name='email' className="my-1 p-2 rounded-lg bg-[#ccd6f6] text-gray-600 font-semibold" />
