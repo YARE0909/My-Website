@@ -4,12 +4,11 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
-import { Scrollbars } from 'react-custom-scrollbars';
 
 function App() {
   return (
     
-    <div>
+    <div className="bg-[#0a192f]">
       <Navbar />
       <Home />
       <About />
