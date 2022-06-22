@@ -22,7 +22,7 @@ const Navbar = () => {
 
       {/*Menu*/}
       
-      <ul className="hidden md:flex">
+      <ul className="flex">
         <li className="hover:scale-110 duration-300">
           <Link className="hover:text-cyan-300" to="home" spy={true} smooth={true} duration={500}>
             Home
@@ -45,68 +45,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/*Hamburger*/}
-      <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
-      </div>
-
-      {/*Mobile Menu*/}
-
-      <ul
-        className={
-          !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
-        }
-      >
-        <div>
-          <img src={Logo} alt="Logo Image" style={{ width: "110px" }} />
-        </div>
-        <li className="text-4xl py-6 border-b-2 border-[#7d88aa]">
-          <Link className="hover:text-cyan-300"
-            onClick={handleClick}
-            to="home"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Home
-          </Link>
-        </li>
-        <li className="text-4xl py-6 border-b-2 border-[#7d88aa]">
-          <Link className="hover:text-cyan-300"
-            onClick={handleClick}
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            About
-          </Link>
-        </li>
-        <li className="text-4xl py-6 border-b-2 border-[#7d88aa]">
-          <Link className="hover:text-cyan-300"
-            onClick={handleClick}
-            to="skills"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Skills
-          </Link>
-        </li>
-        <li className="text-4xl py-6">
-          <Link className="hover:text-cyan-300"
-            onClick={handleClick}
-            to="contact"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Contact
-          </Link>
-        </li>
-      </ul>
+      
 
       {/*Social Icons*/}
       <div className="hidden md:flex lg:flex fixed flex-col top-[35%] left-0 font-semibold">
