@@ -6,7 +6,7 @@ const About = () => {
       <div className="flex flex-col justify-center items-center w-full h-full">
         
           <div className="sm:text-right flex items-center justify-center pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-cyan-300">
+            <p className="text-4xl font-bold inline border-b-4 border-cyan-300 text-shadow-lg">
               About
             </p>
           </div>
@@ -19,7 +19,7 @@ const About = () => {
               look around!
             </p>
           </div>
-          <div>
+          <div className="font-semibold text-lg">
             <p>
               I really like to code stuff and make my own creations. I am
               currently learning Web Development making websites and fun web

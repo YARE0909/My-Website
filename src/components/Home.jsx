@@ -8,7 +8,7 @@ const Home = () => {
       {/*Container*/}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-cyan-400">Hello There! I am</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] text-shadow-lg">
           Pradyumna D
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#7d88aa]">
@@ -19,11 +19,11 @@ const Home = () => {
           Currently, I'm focused on making exceptional Web Apps
         </p>
         <div>
-          <button className="text-white border-2 rounded-md px-6 py-3 my-2 flex items-center hover:bg-cyan-400 hover:border-cyan-300 transition duration-300 hover:scale-105">
-            <Link to="about" spy={true} smooth={true} duration={500}>
-              About Me 
-            </Link>
-          </button>
+          <Link to="about" spy={true} smooth={true} duration={500}>
+            <button className="text-white border-2 rounded-md px-6 py-3 my-2 flex items-center hover:bg-cyan-400 hover:border-cyan-300 transition duration-300 hover:scale-105 animate-pulse hover:animate-none">
+              About Me
+            </button>
+          </Link>
         </div>
       </div>
     </div>
