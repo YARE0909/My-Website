@@ -19,7 +19,7 @@ const Skills = () => {
             </p>
           </div>
           <div className="flex justify-center items-center text-center">
-            <p>These are the languages I have worked with</p>
+            <p>These are the platforms I have worked with</p>
           </div>
         </div>
 
