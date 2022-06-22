@@ -5,8 +5,8 @@ const About = () => {
     <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         
-          <div className="sm:text-right flex items-center justify-center pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-cyan-300 text-shadow-lg">
+          <div className="sm:text-right flex items-center justify-center pb-8 pl-4 glitch">
+            <p className="text-4xl font-bold inline border-b-4 border-cyan-300">
               About
             </p>
           </div>

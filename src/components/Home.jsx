@@ -7,9 +7,17 @@ const Home = () => {
       {/*Container*/}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-cyan-400">Hello There! I am</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] text-shadow-lg">
+        <div className="glitch">
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+          <span aria-hidden = "true">
           Pradyumna D
+          </span>Pradyumna D
+          <span aria-hidden = "true">
+          Pradyumna D
+          </span>
         </h1>
+
+        </div>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#7d88aa]">
           I'm a Programmer.
         </h2>
