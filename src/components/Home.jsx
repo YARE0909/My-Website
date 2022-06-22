@@ -17,7 +17,7 @@ const Home = () => {
           I'm a programmer who makes cool stuff via programming.
           Currently, I'm focused on making exceptional Web Apps
         </p>
-        <div>
+        <div className="w-fit">
           <Link to="about" spy={true} smooth={true} duration={500}>
             <button className="text-white border-2 rounded-md px-6 py-3 my-2 flex items-center hover:bg-cyan-400 hover:border-cyan-300 transition duration-300 hover:scale-105">
               About Me
