@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-white shadow-sm">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "80px" }} className="rounded-full hover:animate-wiggle" />
+        <img src={Logo} alt="Logo Image" className="rounded-full hover:animate-wiggle w-10 md:w-16" />
       </div>
 
       {/*Menu*/}

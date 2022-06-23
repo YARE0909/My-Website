@@ -7,7 +7,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="sm:hidden bg-[#0a192f] w-full h-[40px] text-gray-300">
+    <div className="sm:hidden w-full h-[40px] text-gray-300">
       <ul className="flex items-center justify-center">
         <li>
           <a href="https://www.linkedin.com/in/pradyumna-d-95a88123b/" target="_blank" rel="noreferrer">
