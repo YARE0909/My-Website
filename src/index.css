@@ -181,8 +181,9 @@
 
 .bgm {
   background: url('./assets/BackgroundImg.jpg') no-repeat;
-  background-size: cover;
-  position:static;
+  background-size:cover;
+  position:sticky;
   background-attachment: fixed;  
   
 }
+
