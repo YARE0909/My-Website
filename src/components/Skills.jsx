@@ -9,7 +9,7 @@ import GitHub from "../assets/github.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="skills" className="w-full h-screen text-white">
       {/*Container*/}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -18,34 +18,34 @@ const Skills = () => {
               Skills
             </p>
           </div>
-          <div className="flex justify-center items-center text-center">
+          <div className="flex justify-center items-center text-center font-semibold text-cyan-300">
             <p>These are the platforms I have worked with</p>
           </div>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 font-semibold">
-          <div className="shadow-sm shadow-[#121314] hover:scale-105 duration-300 rounded-lg">
-            <img src={HTML} alt="HTML Icon" className="w-20 mx-auto" />
+          <div className="shadow-lg shadow-black hover:scale-105 duration-300 rounded-lg bg-[#2c2c7e]">
+            <img src={HTML} alt="HTML Icon" className="w-20 mx-auto mt-2" />
             <p>HTML</p>
           </div>
-          <div className="shadow-sm shadow-[#121314] hover:scale-105 duration-300 rounded-lg">
-            <img src={CSS} alt="HTML Icon" className="w-20 mx-auto" />
+          <div className="shadow-lg shadow-black hover:scale-105 duration-300 rounded-lg bg-[#2c2c7e]">
+            <img src={CSS} alt="HTML Icon" className="w-20 mx-auto mt-2" />
             <p>CSS</p>
           </div>
-          <div className="shadow-sm shadow-[#121314] hover:scale-105 duration-300 rounded-lg">
-            <img src={JavaScript} alt="HTML Icon" className="w-20 mx-auto" />
+          <div className="shadow-lg shadow-black hover:scale-105 duration-300 rounded-lg bg-[#2c2c7e]">
+            <img src={JavaScript} alt="HTML Icon" className="w-20 mx-auto mt-2" />
             <p>JavaScript</p>
           </div>
-          <div className="shadow-sm shadow-[#121314] hover:scale-105 duration-300 rounded-lg">
-            <img src={ReactImg} alt="HTML Icon" className="w-20 mx-auto" />
+          <div className="shadow-lg shadow-black hover:scale-105 duration-300 rounded-lg bg-[#2c2c7e]">
+            <img src={ReactImg} alt="HTML Icon" className="w-20 mx-auto mt-2" />
             <p>React</p>
           </div>
-          <div className="shadow-sm shadow-[#121314] hover:scale-105 duration-300 rounded-lg">
-            <img src={PythonImg} alt="HTML Icon" className="w-20 mx-auto" />
+          <div className="shadow-lg shadow-black hover:scale-105 duration-300 rounded-lg bg-[#2c2c7e]">
+            <img src={PythonImg} alt="HTML Icon" className="w-20 mx-auto mt-2" />
             <p>Python</p>
           </div>
-          <div className="shadow-sm shadow-[#121314] hover:scale-105 duration-300 rounded-lg">
-            <img src={GitHub} alt="HTML Icon" className="w-20 mx-auto" />
+          <div className="shadow-lg shadow-black hover:scale-105 duration-300 rounded-lg bg-[#2c2c7e]">
+            <img src={GitHub} alt="HTML Icon" className="w-20 mx-auto mt-2" />
             <p>Github</p>
           </div>
         </div>

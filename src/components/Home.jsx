@@ -3,12 +3,12 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="bg-[#0a192f] w-full h-screen">
+    <div name="home" className="w-full h-screen">
       {/*Container*/}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full font-semibold">
         <p className="text-cyan-400">Hello There! I am</p>
         <div className="glitch">
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl sm:text-7xl font-bold text-white">
           <span aria-hidden = "true">
           Pradyumna D
           </span>Pradyumna D
@@ -18,10 +18,10 @@ const Home = () => {
         </h1>
 
         </div>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#7d88aa]">
+        <h2 className="text-4xl sm:text-7xl font-bold text-white">
           I'm a Programmer.
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px]">
+        <p className="text-white py-4 max-w-[700px] font-semibold">
           I'm a programmer who makes cool stuff via programming.
           Currently, I'm focused on making exceptional Web Apps
         </p>

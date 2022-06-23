@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import {
-  FaBars,
-  FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
   FaTwitter,
+  FaUser,
+  FaHome,
+  FaClipboardList,
+  FaPhone,
+  FaMobile
 } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
@@ -14,34 +16,46 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+  window.addEventListener('DOMContentLoaded', () => {
+
+  })
+
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 shadow-sm shadow-[#7d88aa]">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-white shadow-sm">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "80px" }} />
+        <img src={Logo} alt="Logo Image" style={{ width: "80px" }} className="rounded-full hover:animate-wiggle" />
       </div>
 
       {/*Menu*/}
       
       <ul className="flex">
         <li className="hover:scale-110 duration-300">
+          <div className="hover-tooltip" data-tooltip="Home">
           <Link className="hover:text-cyan-300" to="home" spy={true} smooth={true} duration={500}>
-            Home
+            <FaHome />
           </Link>
+          </div>
         </li>
         <li className="hover:scale-110 duration-300">
+          <div className="hover-tooltip" data-tooltip="About">
           <Link className="hover:text-cyan-300" to="about" spy={true} smooth={true} duration={500}>
-            About
+            <FaUser />
           </Link>
+          </div>
         </li>
         <li className="hover:scale-110 duration-300">
+          <div className="hover-tooltip" data-tooltip="Skills">
           <Link className="hover:text-cyan-300" to="skills" spy={true} smooth={true} duration={500}>
-            Skills
+            <FaClipboardList />
           </Link>
+          </div>
         </li>
         <li className="hover:scale-110 duration-300">
+          <div className="hover-tooltip" data-tooltip="Contact">
           <Link className="hover:text-cyan-300" to="contact" spy={true} smooth={true} duration={500}>
-            Contact
+            <FaMobile />
           </Link>
+          </div>
         </li>
       </ul>
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="about" className="w-full h-screen text-white">
       <div className="flex flex-col justify-center items-center w-full h-full">
         
           <div className="sm:text-right flex items-center justify-center pb-8 pl-4 glitch">
@@ -13,7 +13,7 @@ const About = () => {
           
         
         <div className="max-w[1000px] w-full grid sm:grid-cols-2 gap-8 px-10">
-          <div className="sm:text-right text-4xl font-bold">
+          <div className="sm:text-right text-4xl font-bold text-cyan-400">
             <p>
               Hello There! I'm Pradyumna D, pleased to meet you. Feel free to
               look around!
