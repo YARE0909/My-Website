@@ -22,7 +22,6 @@ const Home = () => {
           I'm a Programmer.
         </h2>
         <p className="text-white py-4 max-w-[700px] font-semibold">
-          I'm a programmer who makes cool stuff via programming.
           Currently, I'm focused on making exceptional Web Apps
         </p>
         <div className="w-fit">
