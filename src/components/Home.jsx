@@ -8,12 +8,8 @@ const Home = () => {
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full font-semibold">
         <p className="text-cyan-400">Hello There! I am</p>
         <div className="content">
-          <h1>
-            Pradyumna D
-          </h1>
-          <h1>
-            Pradyumna D
-          </h1>
+          <h1 className="text-[2.8rem] md:text-7xl">Pradyumna D</h1>
+          <h1 className="text-[2.8rem] md:text-7xl">Pradyumna D</h1>
         </div>
         <h2 className="text-4xl sm:text-7xl font-bold text-white mt-20">
           I'm a Programmer.
